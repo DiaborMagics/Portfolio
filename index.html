@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Ricky Jansen</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/MenuStyle.css" />
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </head>
+
+  <body>
+  <div id="mySidenav" class="sidenav" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+  <a href="#introduction">Introductie</a>
+  <a href="#">Opdracht 1</a>
+  <a href="#">Opdracht 2</a>
+  <a href="#">Opdracht 3</a>
+</div>
+	<div id="Button" class="Button">
+		<span onclick="openMenu()"> <img src="assets/image/ic_menu_black_24dp.png" alt="Menu" style="width:60px;height:60px;"> </span> <br /><br />
+	</div>
+
+    <!--introductionPage-->
+    <div id="introduction" class="page">
+        <h1>Portfolio Ricky Jansen</h1>
+		<h2>Student 1089491 aan Hogeschool Leiden</h2>
+    </div>
+
+    
+  </body>
+  <script>
+  
+/* set 250 */
+function openMenu() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* set 0 */
+function closeMenu() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</html>
