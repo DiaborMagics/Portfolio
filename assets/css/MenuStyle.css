@@ -1,49 +1,56 @@
-a{
+a
+{
   font-family: "OpenSans-Semibold", sans-serif;
 }
 
 
-.Button{
+.Button
+{
 	margin:20px;
 	float:left;
-	z-index: 1000;
+	z-index: 5;
 	position: fixed;
 }
-.Button:hover{
+.Button:hover
+{
     cursor: pointer; cursor: hand;
 }
 
 /* The side navigation menu */
-.sidenav {
+.sidenav
+{
     height: 100%; /* 100% Full-height */
     width: 0; 
     position: fixed; 
-    z-index: 1001; 
+    z-index: 6;
     top: 0;
     left: 0;
-    background-color: #111; 
+    background-color: black;
     overflow-x: hidden; 
     padding-top: 60px; 
     transition: 0.5s; 
 }
 
 /* The navigation menu links */
-.sidenav a {
+.sidenav a
+{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: grey;
     display: block;
     transition: 0.5s
 }
 
 /* color change */
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+.sidenav a:hover, .offcanvas a:focus
+{
+    color: white;
 }
 
 /* close button style  */
-.sidenav .closebtn {
+.sidenav .closebtn
+{
     position: absolute;
     top: 0;
     right: 25px;
@@ -52,13 +59,15 @@ a{
 }
 
 /* pushed naar rechts */
-#main {
+#main
+{
     transition: margin-left .5s;
     padding: 20px;
 }
 
 /* Kleine schermen */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px)
+{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
